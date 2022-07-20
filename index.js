@@ -84,24 +84,3 @@ function countOnline(usersObj) {
 console.log(countOnline(users));
 console.log(countOnline(users2));
 console.log(countOnline(users3));
-
-/** HINT:
- * NOTE:
- *    - dot-notation will cause errors in this challenge.
- *    - [square-bracket] notation must be used to call a variable property name.
- *    - The following code will not work
- *
- * 1.
- * for (let user in obj) {
- *    if (obj.user.online === true) {
- *        // code
- *    }
- *  }
- *
- * 2. Example 2 demonstrates how using [square-bracket] notation the code will be executed.
- * for (let user in obj) {
- *    if (obj[user].online === true) {
- *        // code
- *    }
- *  }
- */
