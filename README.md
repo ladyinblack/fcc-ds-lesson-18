@@ -20,7 +20,7 @@ for (let user in obj) {
 }
 ```
 ### Hint 2
-Example 2 demonstrates how using [square-bracket] notation the code will be executed.
+Example 2 demonstrates how using `[square-bracket]` notation the code will be executed.
 ```js
 for (let user in obj) {
   if (obj[user].online === true) {
